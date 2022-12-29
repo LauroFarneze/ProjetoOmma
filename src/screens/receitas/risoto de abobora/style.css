@@ -1,0 +1,177 @@
+#root{
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    position: absolute;
+}
+
+main{
+
+    width: 50%;
+    
+  
+    
+}
+
+
+#card-risoto-de-abobora{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    font-size: large;
+
+    position: relative;
+    right: 15%;
+
+  
+
+}
+
+h1{
+
+    margin-top: 100px;
+
+    text-align: left; 
+    position: relative;
+    left: -38px;
+
+    font-size: 50px;
+    color: var(--dark-primary-color);
+}
+
+
+#card-risoto-de-abobora img{
+
+
+    margin-bottom: 30px;
+
+    position: relative;
+    left: 50px;
+
+}
+
+.tags{
+
+    border: 1px solid var(--bg-button);
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    color: var(--bg-button);
+
+    margin: 10px;
+
+    padding: 3px 30px;
+
+    position: relative;
+
+    left: -70px;
+
+    
+}
+
+
+#receita{
+
+    margin-top: 50px;
+
+    
+}
+
+#receita ul{
+
+    list-style: none;
+
+    position: relative;
+    left: -70px;
+}
+
+
+.subtitle{
+
+    font-weight: 700;
+
+    margin-top: 100px;
+}
+
+.video iframe{
+
+    margin-top: 40px;
+
+    position: relative;
+
+    left: 30px;
+}
+
+
+#modo-de-preparo{
+
+    margin-top: 100px;
+
+    position: relative;
+
+    left: 38px;
+
+    width: 580px;
+
+    font-size: 20px;
+
+}
+
+#modo-de-preparo h2{
+
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+h3{
+
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--dark-primary-color);
+
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+
+h4{
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+.card-receritas-relacionadas{
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin: 20px;
+
+    position: relative;
+    right: 20px;
+}
+
+footer{
+
+    position: absolute;
+
+    top: 2397px;
+
+    width: 1480px;
+}
+
+
+
+
+
+
+
