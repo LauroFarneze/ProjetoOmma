@@ -1,0 +1,23 @@
+section{
+
+    width: 100vw;
+    height: 56vh;
+
+    background-image: url(/assets/images/manda-alo.png);
+
+    position: relative;
+    
+}
+
+section h1{
+
+    width: 420px;
+
+    color: #fff;
+    font-size: var(--font-size-large);
+
+    position: absolute;
+
+    top: 10%;
+    left: 10%;
+}

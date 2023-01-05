@@ -37,3 +37,8 @@ html, body{
     --font-size-small:16px;
 }
 
+.row{
+
+    display: flex;
+}
+
