@@ -29,19 +29,40 @@
     </section>
 
     <main>
-        <form>
-
-            <h2>contato</h2>
-
+        
             <img src="/assets/images/form.png" alt="">
-            <label>
-                <input type="text" placeholder="nome">
-                <input type="text" placeholder="e-mail">
-                <textarea name="mensagem" id="" cols="30" rows="10" placeholder="mensagem"></textarea>
-            </label>
-        </form>
+
+                <form id="form">
+
+                    <h2>contato</h2>
+        
+                    
+                  
+                        <input type="text" placeholder="nome">
+                        <input type="text" placeholder="e-mail">
+                        <textarea placeholder="mensagem"></textarea>
+
+                        <button>Enviar</button>
+                    
+                </form>    
 
     </main>
+
+    <footer>
+       
+        <img src="/assets/images/omma-logo-white.png" alt="logo ecrito Omma na cor branca">
+
+        <span> © 2022 omma - by Lauro Farneze</span>
+       
+    </footer>
+
+    <script>
+        const form = document.getElementById('form')
+    
+        form.addEventListener("submit", (e) => {
+          e.preventDefault()
+        })
+      </script>
 
     
 </body>
